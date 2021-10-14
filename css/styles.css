@@ -1,0 +1,106 @@
+@import url(css/font-awesome-4.6.3);
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    color: #0A2062;
+    padding: .25rem;
+  }
+
+  p{
+    padding: .5rem; 
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  header {
+    background: #254194;
+    display: flex;
+    align-items: center;
+    padding: 0.05rem;
+  }
+
+  .quote{
+    color: orange;
+    font-style: italic; 
+    font-weight: bold;
+  }
+
+  h2{
+    color: #5271FF;
+    font-variant: small-caps;
+    padding: .25rem;
+  }
+
+  blockquote {
+    color: #5271FF;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .logo {
+    color: white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+  }
+
+  a.active {
+    font-weight: bold;
+    color: #5271FF;
+    background: #0A2062;
+  }
+
+  img{
+    float: left; 
+    margin: 1rem;
+  }
+
+
+  .sign-out-link {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2rem;
+  }
+
+footer{
+  background: #254194;
+  color: white;
+  padding: 0.5rem;
+  font-style: italic;
+  }
+
+
+  /*added for responsive*/
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+    nav {
+      order: 2;
+      width: 100%;
+    }
+  }
